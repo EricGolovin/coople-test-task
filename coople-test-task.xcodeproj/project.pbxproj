@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E97EDCF72A89C3C9003EEE1A /* CoopleNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = E97EDCF62A89C3C9003EEE1A /* CoopleNetworking */; };
 		E97EDCF82A89C3E1003EEE1A /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EDCED2A89C3A9003EEE1A /* ServiceContainer.swift */; };
-		E97EDCF92A89C3EA003EEE1A /* CoopleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EDCF52A89C3A9003EEE1A /* CoopleContainer.swift */; };
 		E97EDCFA2A89C3EA003EEE1A /* NetworkClientRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EDCF32A89C3A9003EEE1A /* NetworkClientRegistration.swift */; };
 		E97EDCFB2A89C3EA003EEE1A /* Locator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EDCF42A89C3A9003EEE1A /* Locator.swift */; };
 		E97EDCFC2A89C3EA003EEE1A /* ServiceContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97EDCF02A89C3A9003EEE1A /* ServiceContainerFactory.swift */; };
@@ -38,7 +37,6 @@
 		E97EDCF22A89C3A9003EEE1A /* DataStorageRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorageRegistration.swift; sourceTree = "<group>"; };
 		E97EDCF32A89C3A9003EEE1A /* NetworkClientRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientRegistration.swift; sourceTree = "<group>"; };
 		E97EDCF42A89C3A9003EEE1A /* Locator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locator.swift; sourceTree = "<group>"; };
-		E97EDCF52A89C3A9003EEE1A /* CoopleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopleContainer.swift; sourceTree = "<group>"; };
 		E97FCCF62A899A250040EEEB /* JobListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobListViewController.swift; sourceTree = "<group>"; };
 		E97FCCF72A899A250040EEEB /* JobListCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobListCoordinator.swift; sourceTree = "<group>"; };
 		E97FCCF82A899A250040EEEB /* JobListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobListViewModel.swift; sourceTree = "<group>"; };
@@ -70,15 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E97EDCEC2A89C3A9003EEE1A /* CoopleContainer */ = {
+		E97EDCEC2A89C3A9003EEE1A /* Container */ = {
 			isa = PBXGroup;
 			children = (
 				E97EDCED2A89C3A9003EEE1A /* ServiceContainer.swift */,
 				E97EDCEE2A89C3A9003EEE1A /* ServiceContainerFactory */,
 				E97EDCF42A89C3A9003EEE1A /* Locator.swift */,
-				E97EDCF52A89C3A9003EEE1A /* CoopleContainer.swift */,
 			);
-			path = CoopleContainer;
+			path = Container;
 			sourceTree = "<group>";
 		};
 		E97EDCEE2A89C3A9003EEE1A /* ServiceContainerFactory */ = {
@@ -156,7 +153,7 @@
 			children = (
 				E97FCD042A89A68E0040EEEB /* Extensions */,
 				E9D67F362A89992A00BA99FB /* App */,
-				E97EDCEC2A89C3A9003EEE1A /* CoopleContainer */,
+				E97EDCEC2A89C3A9003EEE1A /* Container */,
 				E9D67F002A89921B00BA99FB /* Base */,
 				E9D67EF32A89916300BA99FB /* Assets.xcassets */,
 				E9D67EF52A89916300BA99FB /* LaunchScreen.storyboard */,
@@ -299,7 +296,6 @@
 				E97EDCF82A89C3E1003EEE1A /* ServiceContainer.swift in Sources */,
 				E97FCCF92A899A250040EEEB /* JobListViewController.swift in Sources */,
 				E97EDCFE2A89C3EA003EEE1A /* ServiceContainerFactoryBlock.swift in Sources */,
-				E97EDCF92A89C3EA003EEE1A /* CoopleContainer.swift in Sources */,
 				E97FCD0C2A89A7A20040EEEB /* UITableView+Reuse.swift in Sources */,
 				E9D67F022A89921B00BA99FB /* BaseCoordinator.swift in Sources */,
 				E97FCCFA2A899A250040EEEB /* JobListCoordinator.swift in Sources */,
